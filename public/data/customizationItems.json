@@ -1,0 +1,106 @@
+[
+  {
+    "id": "gavel_default",
+    "category": "gavel",
+    "name": "Classic Gavel",
+    "description": "The standard wooden gavel",
+    "price": 0,
+    "imageUrl": "/assets/images/gavels/default.png"
+  },
+  {
+    "id": "gavel_golden",
+    "category": "gavel",
+    "name": "Golden Gavel",
+    "description": "A prestigious golden gavel for the distinguished judge",
+    "price": 200,
+    "imageUrl": "/assets/images/gavels/golden.png"
+  },
+  {
+    "id": "gavel_crystal",
+    "category": "gavel",
+    "name": "Crystal Gavel",
+    "description": "An elegant crystal gavel that shimmers",
+    "price": 350,
+    "imageUrl": "/assets/images/gavels/crystal.png"
+  },
+  {
+    "id": "gavel_silver",
+    "category": "gavel",
+    "name": "Silver Gavel",
+    "description": "A sleek silver gavel with modern design",
+    "price": 250,
+    "imageUrl": "/assets/images/gavels/silver.png"
+  },
+  {
+    "id": "courtroom_classic",
+    "category": "courtroom",
+    "name": "Classic Courtroom",
+    "description": "Traditional oak-paneled courtroom",
+    "price": 0,
+    "imageUrl": "/assets/images/courtroom-backgrounds/classic.png"
+  },
+  {
+    "id": "courtroom_modern",
+    "category": "courtroom",
+    "name": "Modern Courtroom",
+    "description": "A sleek, contemporary courtroom design",
+    "price": 500,
+    "imageUrl": "/assets/images/courtroom-backgrounds/modern.png"
+  },
+  {
+    "id": "courtroom_gothic",
+    "category": "courtroom",
+    "name": "Gothic Courtroom",
+    "description": "A dramatic, gothic-style courtroom",
+    "price": 600,
+    "imageUrl": "/assets/images/courtroom-backgrounds/gothic.png"
+  },
+  {
+    "id": "robe_default",
+    "category": "robe",
+    "name": "Black Robe",
+    "description": "Traditional black judicial robe",
+    "price": 0,
+    "imageUrl": "/assets/images/robes/default.png"
+  },
+  {
+    "id": "robe_red",
+    "category": "robe",
+    "name": "Crimson Robe",
+    "description": "A striking red judicial robe",
+    "price": 300,
+    "imageUrl": "/assets/images/robes/red.png"
+  },
+  {
+    "id": "robe_blue",
+    "category": "robe",
+    "name": "Royal Blue Robe",
+    "description": "An elegant royal blue robe",
+    "price": 300,
+    "imageUrl": "/assets/images/robes/blue.png"
+  },
+  {
+    "id": "decoration_none",
+    "category": "decoration",
+    "name": "No Decoration",
+    "description": "Keep the bench simple",
+    "price": 0,
+    "imageUrl": "/assets/images/decorations/none.png"
+  },
+  {
+    "id": "decoration_flag",
+    "category": "decoration",
+    "name": "National Flag",
+    "description": "Add a flag behind the judge's bench",
+    "price": 150,
+    "imageUrl": "/assets/images/decorations/flag.png"
+  },
+  {
+    "id": "decoration_scales",
+    "category": "decoration",
+    "name": "Scales of Justice",
+    "description": "Classic scales of justice decoration",
+    "price": 200,
+    "imageUrl": "/assets/images/decorations/scales.png"
+  }
+]
