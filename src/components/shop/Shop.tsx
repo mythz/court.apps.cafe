@@ -36,9 +36,8 @@ export const Shop: React.FC = () => {
   };
 
   const handlePurchase = async (item: CustomizationItem) => {
-    if (state.coins >= item.price && !item.owned) {
-      dispatch({ type: 'SUBTRACT_COINS', payload: item.price });
-
+    const success = purchaseItem(item.id, item.price);
+    if (success) {
       const updatedItem = { ...item, owned: true };
       await storageService.saveCustomizationInventory([updatedItem]);
 

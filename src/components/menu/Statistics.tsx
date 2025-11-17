@@ -30,7 +30,7 @@ export const Statistics: React.FC = () => {
         </Button>
       </div>
 
-      <div className="stats-grid grid grid-cols-4 gap-4 mb-8">
+      <div className="stats-grid grid grid-cols-2 md:grid-cols-3 gap-4 mb-8">
         <div className="stat-card bg-gray-800 p-6 rounded-lg">
           <h3 className="text-gray-400 mb-2">Total Cases</h3>
           <p className="text-4xl font-bold">{state.completedCases}</p>
@@ -49,6 +49,16 @@ export const Statistics: React.FC = () => {
         <div className="stat-card bg-yellow-900 p-6 rounded-lg">
           <h3 className="text-gray-400 mb-2">Win Rate</h3>
           <p className="text-4xl font-bold">{winRate}%</p>
+        </div>
+
+        <div className="stat-card bg-orange-900 p-6 rounded-lg">
+          <h3 className="text-gray-400 mb-2">Current Streak</h3>
+          <p className="text-4xl font-bold">🔥 {state.currentStreak}</p>
+        </div>
+
+        <div className="stat-card bg-purple-900 p-6 rounded-lg">
+          <h3 className="text-gray-400 mb-2">Best Streak</h3>
+          <p className="text-4xl font-bold">⭐ {state.bestStreak}</p>
         </div>
       </div>
 

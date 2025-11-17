@@ -5,6 +5,8 @@ import { MainMenu } from './components/menu/MainMenu';
 import { CaseView } from './components/game/CaseView';
 import { Shop } from './components/shop/Shop';
 import { Statistics } from './components/menu/Statistics';
+import { Achievements } from './components/menu/Achievements';
+import { Settings } from './components/menu/Settings';
 
 const AppContent: React.FC = () => {
   const { state } = useGame();
@@ -19,6 +21,10 @@ const AppContent: React.FC = () => {
         return <Shop />;
       case 'statistics':
         return <Statistics />;
+      case 'achievements':
+        return <Achievements />;
+      case 'settings':
+        return <Settings />;
       default:
         return <MainMenu />;
     }

@@ -272,5 +272,294 @@
         "credibility": 4
       }
     ]
+  },
+  {
+    "id": "case_006",
+    "title": "The Insider Trading Scandal",
+    "description": "A stock broker is accused of using confidential information to make profitable trades before public announcements.",
+    "difficulty": "hard",
+    "correctVerdict": "guilty",
+    "prosecutorClues": [
+      {
+        "type": "confident",
+        "hint": "The prosecutor shows strong confidence in the paper trail",
+        "pointsToGuilt": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "ev_006_1",
+        "type": "documentary",
+        "title": "Trading Records",
+        "description": "Defendant made large trades just hours before major company announcements, consistently profiting.",
+        "pointsToGuilt": true,
+        "weight": 9
+      },
+      {
+        "id": "ev_006_2",
+        "type": "documentary",
+        "title": "Phone Records",
+        "description": "Multiple calls between defendant and company insider on days before trades.",
+        "pointsToGuilt": true,
+        "weight": 8
+      },
+      {
+        "id": "ev_006_3",
+        "type": "testimony",
+        "title": "SEC Investigation",
+        "description": "Federal investigators confirm unusual pattern matching insider trading profile.",
+        "pointsToGuilt": true,
+        "weight": 9
+      },
+      {
+        "id": "ev_006_4",
+        "type": "documentary",
+        "title": "Email Evidence",
+        "description": "Encrypted emails discussing 'opportunities' that match trading times.",
+        "pointsToGuilt": true,
+        "weight": 7
+      }
+    ],
+    "testimonies": [
+      {
+        "speaker": "Prosecutor",
+        "role": "prosecutor",
+        "statement": "The timing is too perfect to be coincidence. Phone records, trading patterns, and communications all prove illegal insider trading.",
+        "credibility": 9
+      },
+      {
+        "speaker": "Defense Attorney",
+        "role": "defense",
+        "statement": "My client is simply an excellent analyst. Good research led to profitable trades, nothing illegal.",
+        "credibility": 4
+      }
+    ]
+  },
+  {
+    "id": "case_007",
+    "title": "The Mistaken Identity",
+    "description": "A robbery victim identified the defendant in a lineup, but DNA evidence from the scene doesn't match.",
+    "difficulty": "medium",
+    "correctVerdict": "not-guilty",
+    "prosecutorClues": [
+      {
+        "type": "nervous-eyes",
+        "hint": "The prosecutor seems uncertain when discussing the physical evidence",
+        "pointsToGuilt": false
+      }
+    ],
+    "evidence": [
+      {
+        "id": "ev_007_1",
+        "type": "testimony",
+        "title": "Victim Identification",
+        "description": "The victim positively identified the defendant in a police lineup.",
+        "pointsToGuilt": true,
+        "weight": 6
+      },
+      {
+        "id": "ev_007_2",
+        "type": "physical",
+        "title": "DNA Evidence",
+        "description": "DNA found at the crime scene does not match the defendant's DNA profile.",
+        "pointsToGuilt": false,
+        "weight": 10
+      },
+      {
+        "id": "ev_007_3",
+        "type": "documentary",
+        "title": "Forensic Report",
+        "description": "Crime scene analysis shows evidence of a different suspect entirely.",
+        "pointsToGuilt": false,
+        "weight": 9
+      }
+    ],
+    "testimonies": [
+      {
+        "speaker": "Prosecutor",
+        "role": "prosecutor",
+        "statement": "The victim's positive identification is strong evidence. Eyewitness testimony shouldn't be dismissed.",
+        "credibility": 5
+      },
+      {
+        "speaker": "Defense Attorney",
+        "role": "defense",
+        "statement": "DNA evidence is conclusive - my client is innocent. This is a clear case of mistaken identity under traumatic circumstances.",
+        "credibility": 10
+      }
+    ]
+  },
+  {
+    "id": "case_008",
+    "title": "The Contract Fraud",
+    "description": "A business owner is accused of defrauding investors by falsifying company performance documents.",
+    "difficulty": "easy",
+    "correctVerdict": "guilty",
+    "prosecutorClues": [],
+    "evidence": [
+      {
+        "id": "ev_008_1",
+        "type": "documentary",
+        "title": "Falsified Reports",
+        "description": "Financial statements were altered to inflate company value by 400%.",
+        "pointsToGuilt": true,
+        "weight": 10
+      },
+      {
+        "id": "ev_008_2",
+        "type": "documentary",
+        "title": "Original Documents",
+        "description": "Genuine company records show actual poor performance compared to presented data.",
+        "pointsToGuilt": true,
+        "weight": 9
+      },
+      {
+        "id": "ev_008_3",
+        "type": "testimony",
+        "title": "Investor Testimony",
+        "description": "Multiple investors confirm they were shown fraudulent performance data.",
+        "pointsToGuilt": true,
+        "weight": 8
+      }
+    ],
+    "testimonies": [
+      {
+        "speaker": "Prosecutor",
+        "role": "prosecutor",
+        "statement": "The defendant knowingly presented false documents to deceive investors. This is clear-cut fraud.",
+        "credibility": 10
+      },
+      {
+        "speaker": "Defense Attorney",
+        "role": "defense",
+        "statement": "These were honest mistakes in accounting. No intent to defraud.",
+        "credibility": 3
+      }
+    ]
+  },
+  {
+    "id": "case_009",
+    "title": "The Reasonable Doubt",
+    "description": "A defendant is accused of vandalism, but the only evidence is grainy security footage and no witnesses.",
+    "difficulty": "medium",
+    "correctVerdict": "not-guilty",
+    "prosecutorClues": [
+      {
+        "type": "sweating",
+        "hint": "The prosecutor appears uncomfortable with the weak evidence",
+        "pointsToGuilt": false
+      }
+    ],
+    "evidence": [
+      {
+        "id": "ev_009_1",
+        "type": "documentary",
+        "title": "Security Footage",
+        "description": "Extremely grainy footage shows a figure of similar build, but face is not visible.",
+        "pointsToGuilt": true,
+        "weight": 3
+      },
+      {
+        "id": "ev_009_2",
+        "type": "physical",
+        "title": "Paint Samples",
+        "description": "Paint found at scene is a common brand sold at many stores.",
+        "pointsToGuilt": false,
+        "weight": 2
+      },
+      {
+        "id": "ev_009_3",
+        "type": "testimony",
+        "title": "Character Witness",
+        "description": "Multiple community members testify to defendant's good character.",
+        "pointsToGuilt": false,
+        "weight": 6
+      }
+    ],
+    "testimonies": [
+      {
+        "speaker": "Prosecutor",
+        "role": "prosecutor",
+        "statement": "The footage shows someone matching the defendant's description at the scene during the vandalism.",
+        "credibility": 4
+      },
+      {
+        "speaker": "Defense Attorney",
+        "role": "defense",
+        "statement": "The prosecution has no concrete evidence. Grainy footage of an unidentifiable person is not proof beyond reasonable doubt.",
+        "credibility": 9
+      }
+    ]
+  },
+  {
+    "id": "case_010",
+    "title": "The Corporate Conspiracy",
+    "description": "A CEO is accused of orchestrating a price-fixing scheme with competitors to manipulate market prices.",
+    "difficulty": "hard",
+    "correctVerdict": "guilty",
+    "prosecutorClues": [
+      {
+        "type": "confident",
+        "hint": "The prosecutor displays confidence backed by extensive documentation",
+        "pointsToGuilt": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "ev_010_1",
+        "type": "documentary",
+        "title": "Email Chain",
+        "description": "Extensive email communications discussing coordinated pricing strategies with competitors.",
+        "pointsToGuilt": true,
+        "weight": 9
+      },
+      {
+        "id": "ev_010_2",
+        "type": "documentary",
+        "title": "Meeting Records",
+        "description": "Calendar shows regular secret meetings with competitor CEOs at hotels.",
+        "pointsToGuilt": true,
+        "weight": 8
+      },
+      {
+        "id": "ev_010_3",
+        "type": "documentary",
+        "title": "Price Analysis",
+        "description": "Statistical analysis shows suspicious identical price changes across multiple companies.",
+        "pointsToGuilt": true,
+        "weight": 10
+      },
+      {
+        "id": "ev_010_4",
+        "type": "testimony",
+        "title": "Whistleblower Testimony",
+        "description": "Former executive provides detailed account of conspiracy meetings and agreements.",
+        "pointsToGuilt": true,
+        "weight": 9
+      },
+      {
+        "id": "ev_010_5",
+        "type": "documentary",
+        "title": "Internal Memos",
+        "description": "Company memos discussing 'market coordination' and 'industry alignment' strategies.",
+        "pointsToGuilt": true,
+        "weight": 8
+      }
+    ],
+    "testimonies": [
+      {
+        "speaker": "Prosecutor",
+        "role": "prosecutor",
+        "statement": "We have emails, meetings, statistical proof, and insider testimony. This conspiracy is undeniable and harmed millions of consumers.",
+        "credibility": 10
+      },
+      {
+        "speaker": "Defense Attorney",
+        "role": "defense",
+        "statement": "Normal business communications and industry conferences are being twisted into something sinister. This is standard practice.",
+        "credibility": 3,
+        "contradictions": ["Whistleblower testimony contradicts this claim"]
+      }
+    ]
   }
 ]

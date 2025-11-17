@@ -1,5 +1,5 @@
 export type Verdict = 'guilty' | 'not-guilty';
-export type GameScreen = 'menu' | 'case' | 'shop' | 'statistics';
+export type GameScreen = 'menu' | 'case' | 'shop' | 'statistics' | 'achievements' | 'settings';
 export type Difficulty = 'easy' | 'medium' | 'hard';
 
 export interface GameState {
@@ -9,9 +9,13 @@ export interface GameState {
   completedCases: number;
   correctVerdicts: number;
   incorrectVerdicts: number;
+  currentStreak: number;
+  bestStreak: number;
   customization: Customization;
   settings: Settings;
   achievements: Achievement[];
+  purchasedItems: string[];
+  tutorialCompleted: boolean;
 }
 
 export interface Customization {
