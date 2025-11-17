@@ -1,0 +1,276 @@
+[
+  {
+    "id": "case_001",
+    "title": "The Stolen Necklace",
+    "description": "A valuable diamond necklace worth $50,000 was stolen from a jewelry store. The defendant was found near the scene with the necklace in their possession.",
+    "difficulty": "easy",
+    "correctVerdict": "guilty",
+    "prosecutorClues": [
+      {
+        "type": "nervous-eyes",
+        "hint": "The prosecutor seems unusually nervous when presenting the evidence",
+        "pointsToGuilt": false
+      }
+    ],
+    "evidence": [
+      {
+        "id": "ev_001_1",
+        "type": "physical",
+        "title": "Diamond Necklace",
+        "description": "The stolen necklace was found in the defendant's bag during a routine search.",
+        "pointsToGuilt": true,
+        "weight": 9
+      },
+      {
+        "id": "ev_001_2",
+        "type": "documentary",
+        "title": "Security Footage",
+        "description": "Camera footage shows the defendant entering and exiting the store around the time of the theft.",
+        "pointsToGuilt": true,
+        "weight": 8
+      },
+      {
+        "id": "ev_001_3",
+        "type": "testimony",
+        "title": "Store Owner Testimony",
+        "description": "The store owner identifies the defendant as someone who was browsing the store earlier.",
+        "pointsToGuilt": true,
+        "weight": 7
+      }
+    ],
+    "testimonies": [
+      {
+        "speaker": "Prosecutor",
+        "role": "prosecutor",
+        "statement": "The evidence is clear. The defendant was caught red-handed with stolen property. The security footage, combined with the physical evidence, leaves no room for doubt.",
+        "credibility": 8
+      },
+      {
+        "speaker": "Defense Attorney",
+        "role": "defense",
+        "statement": "My client was framed. Someone must have planted the necklace in their bag. They have no prior criminal record.",
+        "credibility": 4,
+        "contradictions": ["No evidence of planting was presented"]
+      }
+    ]
+  },
+  {
+    "id": "case_002",
+    "title": "The Missing Witness",
+    "description": "A defendant is accused of assault, but the key witness has disappeared and all evidence is circumstantial.",
+    "difficulty": "medium",
+    "correctVerdict": "not-guilty",
+    "prosecutorClues": [
+      {
+        "type": "sweating",
+        "hint": "The prosecutor is sweating profusely, suggesting uncertainty in the case",
+        "pointsToGuilt": false
+      }
+    ],
+    "evidence": [
+      {
+        "id": "ev_002_1",
+        "type": "testimony",
+        "title": "Anonymous Tip",
+        "description": "An anonymous caller claimed to have seen the defendant near the scene.",
+        "pointsToGuilt": true,
+        "weight": 3
+      },
+      {
+        "id": "ev_002_2",
+        "type": "documentary",
+        "title": "Hospital Report",
+        "description": "The alleged victim was treated for injuries, but the report doesn't identify the attacker.",
+        "pointsToGuilt": false,
+        "weight": 5
+      },
+      {
+        "id": "ev_002_3",
+        "type": "testimony",
+        "title": "Alibi Witness",
+        "description": "A coworker testifies that the defendant was at work during the alleged incident.",
+        "pointsToGuilt": false,
+        "weight": 8
+      }
+    ],
+    "testimonies": [
+      {
+        "speaker": "Prosecutor",
+        "role": "prosecutor",
+        "statement": "While we don't have the witness, the anonymous tip and timing suggest the defendant's involvement.",
+        "credibility": 4
+      },
+      {
+        "speaker": "Defense Attorney",
+        "role": "defense",
+        "statement": "The prosecution's case relies entirely on hearsay and circumstantial evidence. My client has a solid alibi from a credible witness.",
+        "credibility": 9
+      }
+    ]
+  },
+  {
+    "id": "case_003",
+    "title": "The Embezzlement Scheme",
+    "description": "An accountant is accused of embezzling $200,000 from their company over two years.",
+    "difficulty": "hard",
+    "correctVerdict": "guilty",
+    "prosecutorClues": [
+      {
+        "type": "confident",
+        "hint": "The prosecutor appears highly confident with strong evidence",
+        "pointsToGuilt": true
+      }
+    ],
+    "evidence": [
+      {
+        "id": "ev_003_1",
+        "type": "documentary",
+        "title": "Bank Records",
+        "description": "Suspicious transfers from company accounts to personal accounts matching the defendant's.",
+        "pointsToGuilt": true,
+        "weight": 9
+      },
+      {
+        "id": "ev_003_2",
+        "type": "documentary",
+        "title": "Forensic Audit",
+        "description": "Professional audit reveals systematic manipulation of company books.",
+        "pointsToGuilt": true,
+        "weight": 10
+      },
+      {
+        "id": "ev_003_3",
+        "type": "physical",
+        "title": "Company Records",
+        "description": "Altered ledgers with the defendant's handwriting and digital signature.",
+        "pointsToGuilt": true,
+        "weight": 9
+      },
+      {
+        "id": "ev_003_4",
+        "type": "testimony",
+        "title": "Co-worker Testimony",
+        "description": "A colleague noticed the defendant staying late frequently, working alone on the accounts.",
+        "pointsToGuilt": true,
+        "weight": 6
+      }
+    ],
+    "testimonies": [
+      {
+        "speaker": "Prosecutor",
+        "role": "prosecutor",
+        "statement": "The forensic evidence is overwhelming. Bank records, altered documents, and a clear money trail all point to systematic embezzlement.",
+        "credibility": 10
+      },
+      {
+        "speaker": "Defense Attorney",
+        "role": "defense",
+        "statement": "My client was following orders from upper management. They were a scapegoat for corporate corruption.",
+        "credibility": 3,
+        "contradictions": ["No evidence of upper management involvement presented"]
+      }
+    ]
+  },
+  {
+    "id": "case_004",
+    "title": "The Bar Fight",
+    "description": "Two individuals got into a fight at a bar. Conflicting witness statements make it unclear who started the altercation.",
+    "difficulty": "medium",
+    "correctVerdict": "not-guilty",
+    "prosecutorClues": [
+      {
+        "type": "fidgeting",
+        "hint": "The prosecutor keeps fidgeting with papers, suggesting weak evidence",
+        "pointsToGuilt": false
+      }
+    ],
+    "evidence": [
+      {
+        "id": "ev_004_1",
+        "type": "testimony",
+        "title": "Witness A Statement",
+        "description": "Claims the defendant threw the first punch.",
+        "pointsToGuilt": true,
+        "weight": 5
+      },
+      {
+        "id": "ev_004_2",
+        "type": "testimony",
+        "title": "Witness B Statement",
+        "description": "Claims the alleged victim threw the first punch and the defendant acted in self-defense.",
+        "pointsToGuilt": false,
+        "weight": 5
+      },
+      {
+        "id": "ev_004_3",
+        "type": "documentary",
+        "title": "Bar Security Footage",
+        "description": "Grainy footage shows both individuals involved, but the angle doesn't clearly show who initiated.",
+        "pointsToGuilt": false,
+        "weight": 4
+      }
+    ],
+    "testimonies": [
+      {
+        "speaker": "Prosecutor",
+        "role": "prosecutor",
+        "statement": "Witness testimony clearly indicates the defendant initiated the violence.",
+        "credibility": 5
+      },
+      {
+        "speaker": "Defense Attorney",
+        "role": "defense",
+        "statement": "The evidence is contradictory and inconclusive. We have equally credible witnesses saying opposite things. Reasonable doubt is clear.",
+        "credibility": 8
+      }
+    ]
+  },
+  {
+    "id": "case_005",
+    "title": "The Arson Case",
+    "description": "A warehouse fire resulted in significant property damage. The defendant's fingerprints were found on a gas can at the scene.",
+    "difficulty": "easy",
+    "correctVerdict": "guilty",
+    "prosecutorClues": [],
+    "evidence": [
+      {
+        "id": "ev_005_1",
+        "type": "physical",
+        "title": "Fingerprint Evidence",
+        "description": "The defendant's fingerprints were found on a gas can discovered at the scene.",
+        "pointsToGuilt": true,
+        "weight": 8
+      },
+      {
+        "id": "ev_005_2",
+        "type": "documentary",
+        "title": "Fire Marshal Report",
+        "description": "Investigation confirms arson using an accelerant, likely gasoline.",
+        "pointsToGuilt": true,
+        "weight": 9
+      },
+      {
+        "id": "ev_005_3",
+        "type": "testimony",
+        "title": "Motive Evidence",
+        "description": "The defendant had recently been fired from the warehouse and made threats.",
+        "pointsToGuilt": true,
+        "weight": 7
+      }
+    ],
+    "testimonies": [
+      {
+        "speaker": "Prosecutor",
+        "role": "prosecutor",
+        "statement": "The defendant had motive, means, and opportunity. Their fingerprints on the gas can seal their guilt.",
+        "credibility": 9
+      },
+      {
+        "speaker": "Defense Attorney",
+        "role": "defense",
+        "statement": "My client used to work there and handled gas cans regularly. The fingerprints prove nothing.",
+        "credibility": 4
+      }
+    ]
+  }
+]
